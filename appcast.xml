@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>HomePod Controller</title>
+        <item>
+            <title>1.0.0</title>
+            <description><![CDATA[<p>
+<strong>Beta release</strong> — first version with automatic updates.
+</p>
+<h3>What's new</h3>
+<ul>
+<li><strong>One place for everything.</strong> Big artwork, playback controls and volume for whatever is playing, with a switcher when more than one thing plays.</li>
+<li><strong>Group speakers.</strong> Open Speakers to choose which HomePods play together, each with its own volume.</li>
+<li><strong>Mini player.</strong> A small floating player you can show or hide from the header button or by right-clicking the menu bar icon.</li>
+<li><strong>Automatic updates.</strong> New versions install themselves; check anytime with Check for Updates… in the right-click menu.</li>
+</ul>]]></description>
+            <pubDate>Sat, 31 Oct 2026 11:29:34 -0400</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/zeve-zz/homepod-controller-updates/releases/download/v1.0.0/HomePod.Controller.1.0.0.zip" length="34989398" type="application/octet-stream" sparkle:edSignature="W9LJ9muoIdLRFESXOuLv+b5bJVcWG9JkLnx5AqqeFXkJQIj6nYhhBXUVEKSWIgjYLbaGpMIMBaV8tS3IqtAdDg=="/>
+        </item>
+    </channel>
+</rss>
