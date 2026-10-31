@@ -3,6 +3,24 @@
     <channel>
         <title>HomePod Controller</title>
         <item>
+            <title>1.0.2</title>
+            <description><![CDATA[<p>
+<strong>Beta release</strong> — thanks for testing.
+</p>
+<h3>Bug fixes</h3>
+<ul>
+<li><strong>Play and pause respond instantly.</strong> The button switches the moment you click, with a small spinner until the speaker catches up.</li>
+<li><strong>Album art stays current.</strong> Artwork now updates every time the song changes.</li>
+<li><strong>Drag the mini player.</strong> Move it by its artwork or any empty space.</li>
+</ul>]]></description>
+            <pubDate>Sat, 31 Oct 2026 11:46:16 -0400</pubDate>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/zeve-zz/homepod-controller-updates/releases/download/v1.0.2/HomePod.Controller.1.0.2.zip" length="36194806" type="application/octet-stream" sparkle:edSignature="KdkWxmAt02lHSVGIg1thoCACES+bmSQ21PqSvoDorSVLS9UhXs/FkENJVTlmkjxhSW2ZnG8T3Bt+nB+oWXUGDA=="/>
+        </item>
+        <item>
             <title>1.0.1</title>
             <description><![CDATA[<p>
 <strong>Beta release</strong> — thanks for testing.
