@@ -3,6 +3,28 @@
     <channel>
         <title>HomePod Controller</title>
         <item>
+            <title>1.0.3</title>
+            <description><![CDATA[<p>
+<strong>Beta release</strong> — thanks for testing.
+</p>
+<h3>New</h3>
+<ul>
+<li><strong>Send Feedback.</strong> Report a bug or suggest a feature from the right-click menu on the menu bar icon.</li>
+<li><strong>Crash reports.</strong> If the app quits unexpectedly, it offers to send a crash report the next time it opens.</li>
+</ul>
+<h3>Bug fixes</h3>
+<ul>
+<li><strong>Reconnects after sleep.</strong> No more "Lost connection to speakers" after your Mac wakes up.</li>
+<li><strong>Recovers on its own.</strong> If the connection to your speakers gets stuck, the app resets it automatically.</li>
+</ul>]]></description>
+            <pubDate>Sat, 31 Oct 2026 17:18:55 -0400</pubDate>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/zeve-zz/homepod-controller-updates/releases/download/v1.0.3/HomePod.Controller.1.0.3.zip" length="36272638" type="application/octet-stream" sparkle:edSignature="L4QkBfnx4k4r9U0FUeKGne/eQmDy1+xYNKFSos/I3wHuDnxYmGQEh0/R73SdZREeXXOuCRIklqEtVaKRwIvYDg=="/>
+        </item>
+        <item>
             <title>1.0.2</title>
             <description><![CDATA[<p>
 <strong>Beta release</strong> — thanks for testing.
@@ -35,25 +57,6 @@
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <enclosure url="https://github.com/zeve-zz/homepod-controller-updates/releases/download/v1.0.1/HomePod.Controller.1.0.1.zip" length="36179516" type="application/octet-stream" sparkle:edSignature="XtfxLMc6uynzUOOEMDahW6TZ2azYd+kFBrKYrZw2i2sMljp2mTnSM2zgeMLUSxjHSk8/hA/5ez0raUFpHo9ODg=="/>
-        </item>
-        <item>
-            <title>1.0.0</title>
-            <description><![CDATA[<p>
-<strong>Beta release</strong> — first version with automatic updates.
-</p>
-<h3>What's new</h3>
-<ul>
-<li><strong>One place for everything.</strong> Big artwork, playback controls and volume for whatever is playing, with a switcher when more than one thing plays.</li>
-<li><strong>Group speakers.</strong> Open Speakers to choose which HomePods play together, each with its own volume.</li>
-<li><strong>Mini player.</strong> A small floating player you can show or hide from the header button or by right-clicking the menu bar icon.</li>
-<li><strong>Automatic updates.</strong> New versions install themselves; check anytime with Check for Updates… in the right-click menu.</li>
-</ul>]]></description>
-            <pubDate>Sat, 31 Oct 2026 11:29:34 -0400</pubDate>
-            <sparkle:version>2</sparkle:version>
-            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/zeve-zz/homepod-controller-updates/releases/download/v1.0.0/HomePod.Controller.1.0.0.zip" length="34989398" type="application/octet-stream" sparkle:edSignature="W9LJ9muoIdLRFESXOuLv+b5bJVcWG9JkLnx5AqqeFXkJQIj6nYhhBXUVEKSWIgjYLbaGpMIMBaV8tS3IqtAdDg=="/>
         </item>
     </channel>
 </rss>
