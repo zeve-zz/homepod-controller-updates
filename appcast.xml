@@ -3,6 +3,22 @@
     <channel>
         <title>HomePod Controller</title>
         <item>
+            <title>1.0.9</title>
+            <description><![CDATA[<p>
+<strong>Beta release</strong> — thanks for testing.
+</p>
+<h3>Improvements</h3>
+<ul>
+<li><strong>Smoother room switching.</strong> The window keeps its size when you switch between rooms.</li>
+</ul>]]></description>
+            <pubDate>Sun, 01 Nov 2026 16:07:43 -0500</pubDate>
+            <sparkle:version>11</sparkle:version>
+            <sparkle:shortVersionString>1.0.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/zeve-zz/homepod-controller-updates/releases/download/v1.0.9/HomePod.Controller.1.0.9.zip" length="36383835" type="application/octet-stream" sparkle:edSignature="q0FR+fjtP+Azuv3MwbDfyMiPMPxtcco+PPSZDVg9p2qGq34OHevmif8bSLzeqyfgHNv5VibUEcQRGa6nviPfDg=="/>
+        </item>
+        <item>
             <title>1.0.8</title>
             <description><![CDATA[<p>
 <strong>Beta release</strong> — thanks for testing.
@@ -35,22 +51,6 @@
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <enclosure url="https://github.com/zeve-zz/homepod-controller-updates/releases/download/v1.0.7/HomePod.Controller.1.0.7.zip" length="36324471" type="application/octet-stream" sparkle:edSignature="s4LcOqi5v8nOsNhF2cLTNEHhreMKz2EXU34C7cNvUOZGHJppLqe4MftqLw/HRUxuMIikCdqozT/x+9O4To1+AA=="/>
-        </item>
-        <item>
-            <title>1.0.6</title>
-            <description><![CDATA[<p>
-<strong>Beta release</strong> — thanks for testing.
-</p>
-<h3>Bug fixes</h3>
-<ul>
-<li><strong>Bug fixes and performance improvements.</strong></li>
-</ul>]]></description>
-            <pubDate>Sat, 31 Oct 2026 22:53:23 -0400</pubDate>
-            <sparkle:version>8</sparkle:version>
-            <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/zeve-zz/homepod-controller-updates/releases/download/v1.0.6/HomePod.Controller.1.0.6.zip" length="36316321" type="application/octet-stream" sparkle:edSignature="OxYqPEndHDRdrctdoTLvOF8GtnKwZxcoBZHOTzHiRCacAaZIZ8MRpj+BXG1M7h4nNLCGKAoU3tqoyYeBLNGbAw=="/>
         </item>
     </channel>
 </rss>
