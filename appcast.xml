@@ -3,6 +3,23 @@
     <channel>
         <title>HomePod Controller</title>
         <item>
+            <title>1.0.4</title>
+            <description><![CDATA[<p>
+<strong>Beta release</strong> — thanks for testing.
+</p>
+<h3>Bug fixes</h3>
+<ul>
+<li><strong>Adding and removing speakers works reliably.</strong> Changes now take a couple of seconds instead of a minute or more, and the checkbox updates the moment you click.</li>
+<li><strong>Clearer Speakers page.</strong> The room the music is playing from is labeled, and the Done button matches the rest of the window.</li>
+</ul>]]></description>
+            <pubDate>Sat, 31 Oct 2026 22:17:55 -0400</pubDate>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/zeve-zz/homepod-controller-updates/releases/download/v1.0.4/HomePod.Controller.1.0.4.zip" length="36292012" type="application/octet-stream" sparkle:edSignature="lyNhfpdw4K4jfOheazPMUMhPFRc/bfaxzuhr+TAEp/j3jrFOe9fywuVYNlzohJ7FJAZmbF89cIloVIqs8A33Dg=="/>
+        </item>
+        <item>
             <title>1.0.3</title>
             <description><![CDATA[<p>
 <strong>Beta release</strong> — thanks for testing.
@@ -41,22 +58,6 @@
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <enclosure url="https://github.com/zeve-zz/homepod-controller-updates/releases/download/v1.0.2/HomePod.Controller.1.0.2.zip" length="36194806" type="application/octet-stream" sparkle:edSignature="KdkWxmAt02lHSVGIg1thoCACES+bmSQ21PqSvoDorSVLS9UhXs/FkENJVTlmkjxhSW2ZnG8T3Bt+nB+oWXUGDA=="/>
-        </item>
-        <item>
-            <title>1.0.1</title>
-            <description><![CDATA[<p>
-<strong>Beta release</strong> — thanks for testing.
-</p>
-<h3>What's new</h3>
-<ul>
-<li><strong>A real app icon.</strong> HomePod Controller now has its own icon in Finder, the update prompt and What's New.</li>
-</ul>]]></description>
-            <pubDate>Sat, 31 Oct 2026 11:37:02 -0400</pubDate>
-            <sparkle:version>3</sparkle:version>
-            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/zeve-zz/homepod-controller-updates/releases/download/v1.0.1/HomePod.Controller.1.0.1.zip" length="36179516" type="application/octet-stream" sparkle:edSignature="XtfxLMc6uynzUOOEMDahW6TZ2azYd+kFBrKYrZw2i2sMljp2mTnSM2zgeMLUSxjHSk8/hA/5ez0raUFpHo9ODg=="/>
         </item>
     </channel>
 </rss>
