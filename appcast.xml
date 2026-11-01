@@ -3,6 +3,23 @@
     <channel>
         <title>HomePod Controller</title>
         <item>
+            <title>1.0.7</title>
+            <description><![CDATA[<p>
+<strong>Beta release</strong> — thanks for testing.
+</p>
+<h3>Improvements</h3>
+<ul>
+<li><strong>Instant album art when switching rooms.</strong> Artwork for every room that's playing is ready before you switch.</li>
+<li><strong>Snappier controls.</strong> Play, pause and skip no longer wait while the app checks on your speakers.</li>
+</ul>]]></description>
+            <pubDate>Sat, 31 Oct 2026 23:18:00 -0400</pubDate>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>1.0.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/zeve-zz/homepod-controller-updates/releases/download/v1.0.7/HomePod.Controller.1.0.7.zip" length="36324471" type="application/octet-stream" sparkle:edSignature="s4LcOqi5v8nOsNhF2cLTNEHhreMKz2EXU34C7cNvUOZGHJppLqe4MftqLw/HRUxuMIikCdqozT/x+9O4To1+AA=="/>
+        </item>
+        <item>
             <title>1.0.6</title>
             <description><![CDATA[<p>
 <strong>Beta release</strong> — thanks for testing.
@@ -33,23 +50,6 @@
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <enclosure url="https://github.com/zeve-zz/homepod-controller-updates/releases/download/v1.0.5/HomePod.Controller.1.0.5.zip" length="36314816" type="application/octet-stream" sparkle:edSignature="RKkGaL4Qw3Cb7iE4UWaxeYJio52ADVxTa+5g/iA3F2R9OprtCyLGQCc73gnyX7kfAvFAGOorbtKsOvRQi4iQAw=="/>
-        </item>
-        <item>
-            <title>1.0.4</title>
-            <description><![CDATA[<p>
-<strong>Beta release</strong> — thanks for testing.
-</p>
-<h3>Bug fixes</h3>
-<ul>
-<li><strong>Adding and removing speakers works reliably.</strong> Changes now take a couple of seconds instead of a minute or more, and the checkbox updates the moment you click.</li>
-<li><strong>Clearer Speakers page.</strong> The room the music is playing from is labeled, and the Done button matches the rest of the window.</li>
-</ul>]]></description>
-            <pubDate>Sat, 31 Oct 2026 22:17:55 -0400</pubDate>
-            <sparkle:version>6</sparkle:version>
-            <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/zeve-zz/homepod-controller-updates/releases/download/v1.0.4/HomePod.Controller.1.0.4.zip" length="36292012" type="application/octet-stream" sparkle:edSignature="lyNhfpdw4K4jfOheazPMUMhPFRc/bfaxzuhr+TAEp/j3jrFOe9fywuVYNlzohJ7FJAZmbF89cIloVIqs8A33Dg=="/>
         </item>
     </channel>
 </rss>
