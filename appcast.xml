@@ -3,6 +3,22 @@
     <channel>
         <title>HomePod Controller</title>
         <item>
+            <title>1.0.6</title>
+            <description><![CDATA[<p>
+<strong>Beta release</strong> — thanks for testing.
+</p>
+<h3>Bug fixes</h3>
+<ul>
+<li><strong>Bug fixes and performance improvements.</strong></li>
+</ul>]]></description>
+            <pubDate>Sat, 31 Oct 2026 22:53:23 -0400</pubDate>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/zeve-zz/homepod-controller-updates/releases/download/v1.0.6/HomePod.Controller.1.0.6.zip" length="36316321" type="application/octet-stream" sparkle:edSignature="OxYqPEndHDRdrctdoTLvOF8GtnKwZxcoBZHOTzHiRCacAaZIZ8MRpj+BXG1M7h4nNLCGKAoU3tqoyYeBLNGbAw=="/>
+        </item>
+        <item>
             <title>1.0.5</title>
             <description><![CDATA[<p>
 <strong>Beta release</strong> — thanks for testing.
@@ -34,28 +50,6 @@
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <enclosure url="https://github.com/zeve-zz/homepod-controller-updates/releases/download/v1.0.4/HomePod.Controller.1.0.4.zip" length="36292012" type="application/octet-stream" sparkle:edSignature="lyNhfpdw4K4jfOheazPMUMhPFRc/bfaxzuhr+TAEp/j3jrFOe9fywuVYNlzohJ7FJAZmbF89cIloVIqs8A33Dg=="/>
-        </item>
-        <item>
-            <title>1.0.3</title>
-            <description><![CDATA[<p>
-<strong>Beta release</strong> — thanks for testing.
-</p>
-<h3>New</h3>
-<ul>
-<li><strong>Send Feedback.</strong> Report a bug or suggest a feature from the right-click menu on the menu bar icon.</li>
-<li><strong>Crash reports.</strong> If the app quits unexpectedly, it offers to send a crash report the next time it opens.</li>
-</ul>
-<h3>Bug fixes</h3>
-<ul>
-<li><strong>Reconnects after sleep.</strong> No more "Lost connection to speakers" after your Mac wakes up.</li>
-<li><strong>Recovers on its own.</strong> If the connection to your speakers gets stuck, the app resets it automatically.</li>
-</ul>]]></description>
-            <pubDate>Sat, 31 Oct 2026 17:18:55 -0400</pubDate>
-            <sparkle:version>5</sparkle:version>
-            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/zeve-zz/homepod-controller-updates/releases/download/v1.0.3/HomePod.Controller.1.0.3.zip" length="36272638" type="application/octet-stream" sparkle:edSignature="L4QkBfnx4k4r9U0FUeKGne/eQmDy1+xYNKFSos/I3wHuDnxYmGQEh0/R73SdZREeXXOuCRIklqEtVaKRwIvYDg=="/>
         </item>
     </channel>
 </rss>
