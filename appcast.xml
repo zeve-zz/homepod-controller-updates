@@ -3,6 +3,28 @@
     <channel>
         <title>HomePod Controller</title>
         <item>
+            <title>1.0.10</title>
+            <description><![CDATA[<p>
+<strong>Beta release</strong> — thanks for testing.
+</p>
+<h3>New</h3>
+<ul>
+<li><strong>Browse and play Apple Music.</strong> Right-click the menu bar icon and choose Apple Music… to search or pick from the top charts. Your HomePod plays it straight from Apple Music. Use the sidebar button to show or hide the browser, or pop it out into its own window.</li>
+<li><strong>Room shortcuts.</strong> Press ⌘1–⌘9 to jump to a room. You can turn this off in Settings.</li>
+</ul>
+<h3>Improvements</h3>
+<ul>
+<li>TV audio from an Apple TV now shows a TV icon instead of blank artwork.</li>
+<li>Cleaner Settings and What's New.</li>
+</ul>]]></description>
+            <pubDate>Mon, 02 Nov 2026 15:57:53 -0500</pubDate>
+            <sparkle:version>12</sparkle:version>
+            <sparkle:shortVersionString>1.0.10</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/zeve-zz/homepod-controller-updates/releases/download/v1.0.10/HomePod.Controller.1.0.10.zip" length="36660169" type="application/octet-stream" sparkle:edSignature="gEuyZgoqJCgFs2RVHhYP/QoPgDgx589i3tploJZWm3La1ACUySlz2XbsI3DPX+QyI3igRqWMPiTBHxpVYjk5Dg=="/>
+        </item>
+        <item>
             <title>1.0.9</title>
             <description><![CDATA[<p>
 <strong>Beta release</strong> — thanks for testing.
@@ -34,23 +56,6 @@
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <enclosure url="https://github.com/zeve-zz/homepod-controller-updates/releases/download/v1.0.8/HomePod.Controller.1.0.8.zip" length="36381530" type="application/octet-stream" sparkle:edSignature="1KApuV9cRrIp+sfJd0W/srRxaEeUUuizGx//DTjZs/60/RU9+7PL0neOdkNTBGOG0gB6x7YHNKnmHWByqtoFBQ=="/>
-        </item>
-        <item>
-            <title>1.0.7</title>
-            <description><![CDATA[<p>
-<strong>Beta release</strong> — thanks for testing.
-</p>
-<h3>Improvements</h3>
-<ul>
-<li><strong>Instant album art when switching rooms.</strong> Artwork for every room that's playing is ready before you switch.</li>
-<li><strong>Snappier controls.</strong> Play, pause and skip no longer wait while the app checks on your speakers.</li>
-</ul>]]></description>
-            <pubDate>Sat, 31 Oct 2026 23:18:00 -0400</pubDate>
-            <sparkle:version>9</sparkle:version>
-            <sparkle:shortVersionString>1.0.7</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/zeve-zz/homepod-controller-updates/releases/download/v1.0.7/HomePod.Controller.1.0.7.zip" length="36324471" type="application/octet-stream" sparkle:edSignature="s4LcOqi5v8nOsNhF2cLTNEHhreMKz2EXU34C7cNvUOZGHJppLqe4MftqLw/HRUxuMIikCdqozT/x+9O4To1+AA=="/>
         </item>
     </channel>
 </rss>
