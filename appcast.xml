@@ -3,6 +3,27 @@
     <channel>
         <title>HomePod Controller</title>
         <item>
+            <title>1.0.12</title>
+            <description><![CDATA[<p>
+<strong>Beta release</strong> — thanks for testing.
+</p>
+<h3>New</h3>
+<ul>
+<li><strong>Open Apple Music from the menu bar icon.</strong> Turn it on in Settings → Menu Bar. The first time, it opens with just the controls; use the sidebar button to show the music. It remembers how you left it, including whether you had it in its own window.</li>
+</ul>
+<h3>Improvements</h3>
+<ul>
+<li>The Apple Music sidebar button now has a small music note, so it's easier to tell what it does.</li>
+<li>The ⌘1–⌘9 room numbers (hold ⌘ in the room menu) are easier to see in light mode.</li>
+</ul>]]></description>
+            <pubDate>Wed, 04 Nov 2026 08:51:20 -0500</pubDate>
+            <sparkle:version>14</sparkle:version>
+            <sparkle:shortVersionString>1.0.12</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/zeve-zz/homepod-controller-updates/releases/download/v1.0.12/HomePod.Controller.1.0.12.zip" length="36706514" type="application/octet-stream" sparkle:edSignature="gb3/BgVUmMiAhLOgLcyiQ0in0thPY6eivj5F7vQDb2wSa0i+CvnEPCGCQLZqKpXD/9MoV3rWzHodYwN1osH9Bg=="/>
+        </item>
+        <item>
             <title>1.0.11</title>
             <description><![CDATA[<p>
 <strong>Beta release</strong> — thanks for testing.
@@ -52,22 +73,6 @@
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <enclosure url="https://github.com/zeve-zz/homepod-controller-updates/releases/download/v1.0.10/HomePod.Controller.1.0.10.zip" length="36660169" type="application/octet-stream" sparkle:edSignature="gEuyZgoqJCgFs2RVHhYP/QoPgDgx589i3tploJZWm3La1ACUySlz2XbsI3DPX+QyI3igRqWMPiTBHxpVYjk5Dg=="/>
-        </item>
-        <item>
-            <title>1.0.9</title>
-            <description><![CDATA[<p>
-<strong>Beta release</strong> — thanks for testing.
-</p>
-<h3>Improvements</h3>
-<ul>
-<li><strong>Smoother room switching.</strong> The window keeps its size when you switch between rooms.</li>
-</ul>]]></description>
-            <pubDate>Sun, 01 Nov 2026 16:07:43 -0500</pubDate>
-            <sparkle:version>11</sparkle:version>
-            <sparkle:shortVersionString>1.0.9</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/zeve-zz/homepod-controller-updates/releases/download/v1.0.9/HomePod.Controller.1.0.9.zip" length="36383835" type="application/octet-stream" sparkle:edSignature="q0FR+fjtP+Azuv3MwbDfyMiPMPxtcco+PPSZDVg9p2qGq34OHevmif8bSLzeqyfgHNv5VibUEcQRGa6nviPfDg=="/>
         </item>
     </channel>
 </rss>
