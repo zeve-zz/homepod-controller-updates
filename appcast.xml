@@ -3,6 +3,35 @@
     <channel>
         <title>HomePod Controller</title>
         <item>
+            <title>1.0.11</title>
+            <description><![CDATA[<p>
+<strong>Beta release</strong> — thanks for testing.
+</p>
+<h3>New</h3>
+<ul>
+<li><strong>Volume keys.</strong> Press − and + (or =) to turn the selected room down or up. They don't get in the way while you're typing in a search box.</li>
+<li><strong>Quick mute.</strong> Click the small speaker icon on the left of a volume slider to turn the volume all the way down.</li>
+</ul>
+<h3>Improvements</h3>
+<ul>
+<li><strong>Apple Music panel:</strong> the sidebar button now sits in the corner and moves with the panel as it opens, the mini player button is in the top bar, and everything lines up more neatly.</li>
+<li>New, cleaner tooltips.</li>
+<li>Click anywhere outside the search box to stop typing in it.</li>
+<li>HomePods paired with an Apple TV: until the app knows their volume, the slider is dimmed and − and + step the volume from where it really is, instead of jumping.</li>
+</ul>
+<h3>Fixes</h3>
+<ul>
+<li>The "playing" bars no longer bounce around when you open Apple Music in its own window.</li>
+<li>The volume slider no longer snaps back for a moment right after you change it.</li>
+</ul>]]></description>
+            <pubDate>Tue, 03 Nov 2026 23:05:31 -0500</pubDate>
+            <sparkle:version>13</sparkle:version>
+            <sparkle:shortVersionString>1.0.11</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/zeve-zz/homepod-controller-updates/releases/download/v1.0.11/HomePod.Controller.1.0.11.zip" length="36699850" type="application/octet-stream" sparkle:edSignature="1YZ04F9KPoXZ3fbOPPgECX7gG3v0e/Fy4atwPizNmGT9FM5SUnwSlpr3rLuiefgo3GIJlli1NgzfhKS8qzd2AA=="/>
+        </item>
+        <item>
             <title>1.0.10</title>
             <description><![CDATA[<p>
 <strong>Beta release</strong> — thanks for testing.
@@ -39,23 +68,6 @@
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <enclosure url="https://github.com/zeve-zz/homepod-controller-updates/releases/download/v1.0.9/HomePod.Controller.1.0.9.zip" length="36383835" type="application/octet-stream" sparkle:edSignature="q0FR+fjtP+Azuv3MwbDfyMiPMPxtcco+PPSZDVg9p2qGq34OHevmif8bSLzeqyfgHNv5VibUEcQRGa6nviPfDg=="/>
-        </item>
-        <item>
-            <title>1.0.8</title>
-            <description><![CDATA[<p>
-<strong>Beta release</strong> — thanks for testing.
-</p>
-<h3>Improvements</h3>
-<ul>
-<li><strong>Every room in the menu at the top.</strong> Pick any HomePod, even if nothing is playing, to set its volume or press play to pick up where it left off.</li>
-<li><strong>Help when no HomePods are found.</strong> If none show up, the app explains the usual causes and opens the right setting.</li>
-</ul>]]></description>
-            <pubDate>Sun, 01 Nov 2026 15:27:43 -0500</pubDate>
-            <sparkle:version>10</sparkle:version>
-            <sparkle:shortVersionString>1.0.8</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/zeve-zz/homepod-controller-updates/releases/download/v1.0.8/HomePod.Controller.1.0.8.zip" length="36381530" type="application/octet-stream" sparkle:edSignature="1KApuV9cRrIp+sfJd0W/srRxaEeUUuizGx//DTjZs/60/RU9+7PL0neOdkNTBGOG0gB6x7YHNKnmHWByqtoFBQ=="/>
         </item>
     </channel>
 </rss>
