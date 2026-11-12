@@ -3,6 +3,27 @@
     <channel>
         <title>HomePod Controller</title>
         <item>
+            <title>1.0.15</title>
+            <description><![CDATA[<p>
+<strong>Beta release</strong> — thanks for testing.
+</p>
+<h3>New</h3>
+<ul>
+<li><strong>⌘M</strong> shows or hides the Apple Music side.</li>
+<li><strong>Esc</strong> closes the panel (or leaves an album page, or stops typing in search, first).</li>
+</ul>
+<h3>Fixes</h3>
+<ul>
+<li>Keyboard shortcuts now work as soon as you open the app from the menu bar.</li>
+</ul>]]></description>
+            <pubDate>Thu, 12 Nov 2026 08:35:19 -0500</pubDate>
+            <sparkle:version>17</sparkle:version>
+            <sparkle:shortVersionString>1.0.15</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/zeve-zz/homepod-controller-updates/releases/download/v1.0.15/HomePod.Controller.1.0.15.zip" length="36680311" type="application/octet-stream" sparkle:edSignature="cxojmLVWftW49YrwdWJRc7N0M9yLWvy+PVC5CYJ/tstpF3rWa4f+SoUVGPsfOQYg2h406vadKLTweVialRxGBA=="/>
+        </item>
+        <item>
             <title>1.0.14</title>
             <description><![CDATA[<p>
 <strong>Beta release</strong> — thanks for testing.
@@ -40,27 +61,6 @@
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <enclosure url="https://github.com/zeve-zz/homepod-controller-updates/releases/download/v1.0.13/HomePod.Controller.1.0.13.zip" length="36707214" type="application/octet-stream" sparkle:edSignature="I+5NjRb3OmTmfZr937YCLfaDFijQnba4QYJIaAWDFz2qx8qFWtOOBVOEoIHLQTkKP2UEjVaw1F1N0lWr+YN7Cw=="/>
-        </item>
-        <item>
-            <title>1.0.12</title>
-            <description><![CDATA[<p>
-<strong>Beta release</strong> — thanks for testing.
-</p>
-<h3>New</h3>
-<ul>
-<li><strong>Open Apple Music from the menu bar icon.</strong> Turn it on in Settings → Menu Bar. The first time, it opens with just the controls; use the sidebar button to show the music. It remembers how you left it, including whether you had it in its own window.</li>
-</ul>
-<h3>Improvements</h3>
-<ul>
-<li>The Apple Music sidebar button now has a small music note, so it's easier to tell what it does.</li>
-<li>The ⌘1–⌘9 room numbers (hold ⌘ in the room menu) are easier to see in light mode.</li>
-</ul>]]></description>
-            <pubDate>Wed, 04 Nov 2026 08:51:20 -0500</pubDate>
-            <sparkle:version>14</sparkle:version>
-            <sparkle:shortVersionString>1.0.12</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/zeve-zz/homepod-controller-updates/releases/download/v1.0.12/HomePod.Controller.1.0.12.zip" length="36706514" type="application/octet-stream" sparkle:edSignature="gb3/BgVUmMiAhLOgLcyiQ0in0thPY6eivj5F7vQDb2wSa0i+CvnEPCGCQLZqKpXD/9MoV3rWzHodYwN1osH9Bg=="/>
         </item>
     </channel>
 </rss>
