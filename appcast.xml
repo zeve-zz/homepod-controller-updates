@@ -3,6 +3,32 @@
     <channel>
         <title>HomePod Controller</title>
         <item>
+            <title>1.0.20</title>
+            <description><![CDATA[<p>
+<strong>Beta release</strong> — thanks for testing.
+</p>
+<h3>Improvements</h3>
+<ul>
+<li><strong>Pick the room from Apple Music.</strong> Click "Plays on …" at the top of Apple Music to open the room list.</li>
+<li><strong>Apple Music access in Settings.</strong> A new Apple Music section shows whether the app can see your playlists, with a button to allow it or change it.</li>
+<li>If you said no to Apple Music access, Apple Music shows a small card to turn it on in System Settings. You can hide it.</li>
+<li>Buttons in Apple Music now light up when you point at them.</li>
+<li>Reopening Apple Music no longer reloads your playlists and covers every time.</li>
+</ul>
+<h3>Fixes</h3>
+<ul>
+<li>⌘, opens Settings again, instead of an empty window.</li>
+<li>Allowing Apple Music access no longer closes the Apple Music panel.</li>
+<li>Clicking anywhere else in the app now closes the room list.</li>
+</ul>]]></description>
+            <pubDate>Fri, 13 Nov 2026 10:26:06 -0500</pubDate>
+            <sparkle:version>22</sparkle:version>
+            <sparkle:shortVersionString>1.0.20</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/zeve-zz/homepod-controller-updates/releases/download/v1.0.20/HomePod.Controller.1.0.20.zip" length="36758178" type="application/octet-stream" sparkle:edSignature="bIIPxeAhQQChrokKdbIR51E5pfoFSrdUO2CtFoZzsMIXMnEXZWqdl8TUHuI7KST+uC55wT/zebcnDFM8QqXoAA=="/>
+        </item>
+        <item>
             <title>1.0.19</title>
             <description><![CDATA[<p>
 <strong>Beta release</strong> — thanks for testing.
@@ -42,24 +68,6 @@
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <enclosure url="https://github.com/zeve-zz/homepod-controller-updates/releases/download/v1.0.18/HomePod.Controller.1.0.18.zip" length="36698137" type="application/octet-stream" sparkle:edSignature="Q+xJE54B2xevHdwYT6QQbo7vnNi/2LZ4GxrvBE+pbNb+k1Vd6tKV1xb3FPvT331Snhb6I8EzMi2m43utLVtDDA=="/>
-        </item>
-        <item>
-            <title>1.0.17</title>
-            <description><![CDATA[<p>
-<strong>Beta release</strong> — thanks for testing.
-</p>
-<h3>Fixes</h3>
-<ul>
-<li>Songs picked in Apple Music now play on HomePods that had something else loaded, like an ambient sound (White Noise, Rain…). Before, the HomePod could ignore the song while the app said it was playing.</li>
-<li>If a HomePod turns a song down, you now see an error with the reason instead of "Playing".</li>
-<li>The Apple Music panel no longer hides the app's other windows. Clicking What's New or Settings closes it, and so does opening a window from a button in the panel.</li>
-</ul>]]></description>
-            <pubDate>Fri, 13 Nov 2026 07:56:01 -0500</pubDate>
-            <sparkle:version>19</sparkle:version>
-            <sparkle:shortVersionString>1.0.17</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/zeve-zz/homepod-controller-updates/releases/download/v1.0.17/HomePod.Controller.1.0.17.zip" length="36695002" type="application/octet-stream" sparkle:edSignature="Vjs8i7xouASJm0lgcrse2Ef3owW9SJPFfuoJwMEU993PvynLuz47CTYx440LtguuHgAGKkXg2K9KsvUHD40uBQ=="/>
         </item>
     </channel>
 </rss>
