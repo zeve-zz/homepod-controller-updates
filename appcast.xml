@@ -3,6 +3,27 @@
     <channel>
         <title>HomePod Controller</title>
         <item>
+            <title>1.0.18</title>
+            <description><![CDATA[<p>
+<strong>Beta release</strong> — thanks for testing.
+</p>
+<h3>Improvements</h3>
+<ul>
+<li><strong>What's New shows up on its own</strong> after an update, in front of your other windows. No need to click the menu bar icon first.</li>
+<li><strong>New "Show What's New after updates" checkbox</strong> in the What's New window, if you'd rather skip it.</li>
+</ul>
+<h3>Fixes</h3>
+<ul>
+<li>The Apple Music panel no longer covers the app's other windows. What's New, Settings and Send Feedback now stay on top of it.</li>
+</ul>]]></description>
+            <pubDate>Fri, 13 Nov 2026 08:05:01 -0500</pubDate>
+            <sparkle:version>20</sparkle:version>
+            <sparkle:shortVersionString>1.0.18</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/zeve-zz/homepod-controller-updates/releases/download/v1.0.18/HomePod.Controller.1.0.18.zip" length="36698137" type="application/octet-stream" sparkle:edSignature="Q+xJE54B2xevHdwYT6QQbo7vnNi/2LZ4GxrvBE+pbNb+k1Vd6tKV1xb3FPvT331Snhb6I8EzMi2m43utLVtDDA=="/>
+        </item>
+        <item>
             <title>1.0.17</title>
             <description><![CDATA[<p>
 <strong>Beta release</strong> — thanks for testing.
@@ -41,27 +62,6 @@
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <enclosure url="https://github.com/zeve-zz/homepod-controller-updates/releases/download/v1.0.16/HomePod.Controller.1.0.16.zip" length="36692724" type="application/octet-stream" sparkle:edSignature="d/6K4vV+9RJZKQxTXpN7u1rS0Qq3EzEt69xx5J/T6kSCe1BJlwuJkgenrsAReFfPEQlUR8VqLi77TClFtWIwCA=="/>
-        </item>
-        <item>
-            <title>1.0.15</title>
-            <description><![CDATA[<p>
-<strong>Beta release</strong> — thanks for testing.
-</p>
-<h3>New</h3>
-<ul>
-<li><strong>⌘M</strong> shows or hides the Apple Music side.</li>
-<li><strong>Esc</strong> closes the panel (or leaves an album page, or stops typing in search, first).</li>
-</ul>
-<h3>Fixes</h3>
-<ul>
-<li>Keyboard shortcuts now work as soon as you open the app from the menu bar.</li>
-</ul>]]></description>
-            <pubDate>Thu, 12 Nov 2026 08:35:19 -0500</pubDate>
-            <sparkle:version>17</sparkle:version>
-            <sparkle:shortVersionString>1.0.15</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/zeve-zz/homepod-controller-updates/releases/download/v1.0.15/HomePod.Controller.1.0.15.zip" length="36680311" type="application/octet-stream" sparkle:edSignature="cxojmLVWftW49YrwdWJRc7N0M9yLWvy+PVC5CYJ/tstpF3rWa4f+SoUVGPsfOQYg2h406vadKLTweVialRxGBA=="/>
         </item>
     </channel>
 </rss>
