@@ -3,6 +3,28 @@
     <channel>
         <title>HomePod Controller</title>
         <item>
+            <title>1.0.16</title>
+            <description><![CDATA[<p>
+<strong>Beta release</strong> — thanks for testing.
+</p>
+<h3>New</h3>
+<ul>
+<li><strong>Detailed log.</strong> While the app is in beta it also notes what you click and each command it sends to your speakers, so a bug report shows exactly what led up to a problem. Turn it off in Settings → Troubleshooting, where "Show Log in Finder" opens the log file. It's only sent if you tick "Include diagnostics" in a report.</li>
+</ul>
+<h3>Fixes</h3>
+<ul>
+<li>Bug reports now include the newest part of the log. Before, long logs were cut short and missed the moment the problem happened.</li>
+<li>If a song can't start, the reason is now recorded, and the app no longer says "Playing" when it couldn't send the song to a speaker.</li>
+<li>The Send Feedback window fits again on macOS 27.</li>
+</ul>]]></description>
+            <pubDate>Fri, 13 Nov 2026 07:41:32 -0500</pubDate>
+            <sparkle:version>18</sparkle:version>
+            <sparkle:shortVersionString>1.0.16</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/zeve-zz/homepod-controller-updates/releases/download/v1.0.16/HomePod.Controller.1.0.16.zip" length="36692724" type="application/octet-stream" sparkle:edSignature="d/6K4vV+9RJZKQxTXpN7u1rS0Qq3EzEt69xx5J/T6kSCe1BJlwuJkgenrsAReFfPEQlUR8VqLi77TClFtWIwCA=="/>
+        </item>
+        <item>
             <title>1.0.15</title>
             <description><![CDATA[<p>
 <strong>Beta release</strong> — thanks for testing.
@@ -45,22 +67,6 @@
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <enclosure url="https://github.com/zeve-zz/homepod-controller-updates/releases/download/v1.0.14/HomePod.Controller.1.0.14.zip" length="36678861" type="application/octet-stream" sparkle:edSignature="kS8otQ7sp8xcUvKbuM1Eg1ZOa0eN8QfOPQ7/DSlshjRprp1svoVGfdRpR2f29lG7HS/tDLj4uX/tUsJT0WzaCg=="/>
-        </item>
-        <item>
-            <title>1.0.13</title>
-            <description><![CDATA[<p>
-<strong>Beta release</strong> — thanks for testing.
-</p>
-<h3>Fixes</h3>
-<ul>
-<li>Fixed a crash when opening Settings on macOS 27.</li>
-</ul>]]></description>
-            <pubDate>Wed, 04 Nov 2026 09:49:05 -0500</pubDate>
-            <sparkle:version>15</sparkle:version>
-            <sparkle:shortVersionString>1.0.13</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/zeve-zz/homepod-controller-updates/releases/download/v1.0.13/HomePod.Controller.1.0.13.zip" length="36707214" type="application/octet-stream" sparkle:edSignature="I+5NjRb3OmTmfZr937YCLfaDFijQnba4QYJIaAWDFz2qx8qFWtOOBVOEoIHLQTkKP2UEjVaw1F1N0lWr+YN7Cw=="/>
         </item>
     </channel>
 </rss>
