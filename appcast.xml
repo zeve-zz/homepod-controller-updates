@@ -3,6 +3,29 @@
     <channel>
         <title>HomePod Controller</title>
         <item>
+            <title>1.0.22</title>
+            <description><![CDATA[<p>
+<strong>Beta release</strong> — thanks for testing.
+</p>
+<h3>New</h3>
+<ul>
+<li><strong>Move through a song.</strong> A progress bar under the song shows how far in you are. Drag or click it to jump, or press ← and → to skip 15 seconds. Ambient sounds and radio have no length, so they don't show a bar.</li>
+<li><strong>Stereo pairs stay ready for Siri.</strong> A HomePod bug can leave a stereo pair silent, ignoring Siri and Home scenes, if it's still grouped with another room after the music stops. The app now takes the other rooms out after 30 minutes of quiet, and puts them back when you play on the pair from here. You can turn this off in Settings › General.</li>
+</ul>
+<h3>Fixes</h3>
+<ul>
+<li><strong>Stereo pairs out of sync.</strong> If one speaker of a pair refuses a song, the app sends it through the other one, which also brings the pair back together. While a pair is out of sync, the Speakers box says so.</li>
+<li><strong>Silent speakers in a group</strong> now show "In the group, but not playing" instead of looking like they play.</li>
+<li>The window keeps the same height whether a song, an ambient sound or nothing is playing, and the Apple Music panel no longer cuts off a warning under Speakers.</li>
+</ul>]]></description>
+            <pubDate>Sat, 14 Nov 2026 14:24:57 -0500</pubDate>
+            <sparkle:version>24</sparkle:version>
+            <sparkle:shortVersionString>1.0.22</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/zeve-zz/homepod-controller-updates/releases/download/v1.0.22/HomePod.Controller.1.0.22.zip" length="36839424" type="application/octet-stream" sparkle:edSignature="vKAq3+ZJJOOmDRk7wrw5iUOR3qtNZQKgO28c5BPApolEozvp9MmUCpRhor6ALRsrp3SLzjB9I33SR018I1KAAg=="/>
+        </item>
+        <item>
             <title>1.0.21</title>
             <description><![CDATA[<p>
 <strong>Beta release</strong> — thanks for testing.
@@ -45,26 +68,6 @@
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <enclosure url="https://github.com/zeve-zz/homepod-controller-updates/releases/download/v1.0.20/HomePod.Controller.1.0.20.zip" length="36758178" type="application/octet-stream" sparkle:edSignature="bIIPxeAhQQChrokKdbIR51E5pfoFSrdUO2CtFoZzsMIXMnEXZWqdl8TUHuI7KST+uC55wT/zebcnDFM8QqXoAA=="/>
-        </item>
-        <item>
-            <title>1.0.19</title>
-            <description><![CDATA[<p>
-<strong>Beta release</strong> — thanks for testing.
-</p>
-<h3>New</h3>
-<ul>
-<li><strong>Your Apple Music.</strong> The Apple Music panel now shows what you've played recently and your own playlists, above the charts. Open a playlist to see its songs, then play it all, shuffle it, or start from any song, right on your HomePod. The first time, your Mac asks to allow access to Apple Music.</li>
-</ul>
-<h3>Fixes</h3>
-<ul>
-<li>Songs no longer repeat over and over on a HomePod that was left on repeat. Songs and albums started from the app now play once through, in order.</li>
-</ul>]]></description>
-            <pubDate>Fri, 13 Nov 2026 08:33:42 -0500</pubDate>
-            <sparkle:version>21</sparkle:version>
-            <sparkle:shortVersionString>1.0.19</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/zeve-zz/homepod-controller-updates/releases/download/v1.0.19/HomePod.Controller.1.0.19.zip" length="36724718" type="application/octet-stream" sparkle:edSignature="sLl28UBEmJibaPQ5xx0amAiKlbeWT318t6hqryhX4/pxhoy7uabfx1stG2QeKhHRas66OfMEzTfykkE8KeR6DQ=="/>
         </item>
     </channel>
 </rss>
