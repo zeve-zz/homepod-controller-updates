@@ -3,6 +3,32 @@
     <channel>
         <title>HomePod Controller</title>
         <item>
+            <title>1.0.23</title>
+            <description><![CDATA[<p>
+<strong>Beta release</strong> — thanks for testing.
+</p>
+<h3>New</h3>
+<ul>
+<li><strong>Pick speakers before you play.</strong> Tick rooms on the Speakers page while nothing is playing, and they join as soon as the music starts.</li>
+<li><strong>Install updates automatically.</strong> A new option in Settings › Updates downloads updates in the background. When one is ready, the app says so, with a button to restart now.</li>
+<li><strong>Play songs on HomePods paired with an Apple TV.</strong> If the Apple TV is waiting for Apple Music's latest privacy agreement, the app tells you to accept it there.</li>
+</ul>
+<h3>Fixes</h3>
+<ul>
+<li><strong>New songs show right away.</strong> The app used to take up to 30 seconds to notice that the next song had started.</li>
+<li><strong>Next and back show that they're working</strong>, so it's clear the click landed.</li>
+<li><strong>Grouping speakers</strong> now uses the same request as Apple's own apps.</li>
+<li><strong>No more in-between steps</strong> when a room joins a group, and the song's time no longer jumps when a new song starts.</li>
+<li><strong>Keep stereo pairs ready for Home scenes</strong> (Settings › General): Apple's HomePod software can leave a stereo pair silent when a Home scene runs while the pair is still grouped with another room. This setting now ungroups 2 minutes after the music stops by default, and you can choose a longer time.</li>
+</ul>]]></description>
+            <pubDate>Tue, 17 Nov 2026 08:52:43 -0500</pubDate>
+            <sparkle:version>25</sparkle:version>
+            <sparkle:shortVersionString>1.0.23</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/zeve-zz/homepod-controller-updates/releases/download/v1.0.23/HomePod.Controller.1.0.23.zip" length="36886473" type="application/octet-stream" sparkle:edSignature="HWyUAtUy6f/LkWoP3EH/8kx+AZE3WcKeJd7cPldrj1xRyEM3TaVgYxLuLUr6E8TTkr9GZBQt8Qat2TU230jWAA=="/>
+        </item>
+        <item>
             <title>1.0.22</title>
             <description><![CDATA[<p>
 <strong>Beta release</strong> — thanks for testing.
@@ -42,32 +68,6 @@
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <enclosure url="https://github.com/zeve-zz/homepod-controller-updates/releases/download/v1.0.21/HomePod.Controller.1.0.21.zip" length="36780320" type="application/octet-stream" sparkle:edSignature="IBptBphAlWtKB9kuufORg0Rrk7TipWHk7xptbpN8u2lIypky2U5/LEBxLYR4rsAxZxESYE0I/hgrxpEZyA1VAg=="/>
-        </item>
-        <item>
-            <title>1.0.20</title>
-            <description><![CDATA[<p>
-<strong>Beta release</strong> — thanks for testing.
-</p>
-<h3>Improvements</h3>
-<ul>
-<li><strong>Pick the room from Apple Music.</strong> Click "Plays on …" at the top of Apple Music to open the room list.</li>
-<li><strong>Apple Music access in Settings.</strong> A new Apple Music section shows whether the app can see your playlists, with a button to allow it or change it.</li>
-<li>If you said no to Apple Music access, Apple Music shows a small card to turn it on in System Settings. You can hide it.</li>
-<li>Buttons in Apple Music now light up when you point at them.</li>
-<li>Reopening Apple Music no longer reloads your playlists and covers every time.</li>
-</ul>
-<h3>Fixes</h3>
-<ul>
-<li>⌘, opens Settings again, instead of an empty window.</li>
-<li>Allowing Apple Music access no longer closes the Apple Music panel.</li>
-<li>Clicking anywhere else in the app now closes the room list.</li>
-</ul>]]></description>
-            <pubDate>Fri, 13 Nov 2026 10:26:06 -0500</pubDate>
-            <sparkle:version>22</sparkle:version>
-            <sparkle:shortVersionString>1.0.20</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/zeve-zz/homepod-controller-updates/releases/download/v1.0.20/HomePod.Controller.1.0.20.zip" length="36758178" type="application/octet-stream" sparkle:edSignature="bIIPxeAhQQChrokKdbIR51E5pfoFSrdUO2CtFoZzsMIXMnEXZWqdl8TUHuI7KST+uC55wT/zebcnDFM8QqXoAA=="/>
         </item>
     </channel>
 </rss>
