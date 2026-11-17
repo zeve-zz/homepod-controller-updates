@@ -16,7 +16,7 @@
             <sparkle:shortVersionString>1.0.23.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/zeve-zz/homepod-controller-updates/releases/download/HomePod.Controller.1.0.23.1.zip" length="36889412" type="application/octet-stream" sparkle:edSignature="+n70dZk4v/jAkHeGqXaxuipd/ealJzc9mWRuEGdt+OTDvW+lj/E1A08OjTzMyVmmuVBdFoJRlhTyDSecLcQ5Aw=="/>
+            <enclosure url="https://github.com/zeve-zz/homepod-controller-updates/releases/download/v1.0.23.1/HomePod.Controller.1.0.23.1.zip" length="36889412" type="application/octet-stream" sparkle:edSignature="+n70dZk4v/jAkHeGqXaxuipd/ealJzc9mWRuEGdt+OTDvW+lj/E1A08OjTzMyVmmuVBdFoJRlhTyDSecLcQ5Aw=="/>
         </item>
         <item>
             <title>1.0.23</title>
