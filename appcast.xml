@@ -3,6 +3,22 @@
     <channel>
         <title>HomePod Controller</title>
         <item>
+            <title>1.0.23.1</title>
+            <description><![CDATA[<p>
+<strong>Beta release</strong> — thanks for testing.
+</p>
+<h3>Fixes</h3>
+<ul>
+<li><strong>Speakers no longer go missing.</strong> On some Wi-Fi networks the app could miss a speaker, or one half of a stereo pair, which then showed under its own name (like "HomePod Right") instead of the room. The app now checks for speakers it missed, so every room shows up.</li>
+</ul>]]></description>
+            <pubDate>Tue, 17 Nov 2026 09:59:26 -0500</pubDate>
+            <sparkle:version>26</sparkle:version>
+            <sparkle:shortVersionString>1.0.23.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/zeve-zz/homepod-controller-updates/releases/download/HomePod.Controller.1.0.23.1.zip" length="36889412" type="application/octet-stream" sparkle:edSignature="+n70dZk4v/jAkHeGqXaxuipd/ealJzc9mWRuEGdt+OTDvW+lj/E1A08OjTzMyVmmuVBdFoJRlhTyDSecLcQ5Aw=="/>
+        </item>
+        <item>
             <title>1.0.23</title>
             <description><![CDATA[<p>
 <strong>Beta release</strong> — thanks for testing.
@@ -50,24 +66,6 @@
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <enclosure url="https://github.com/zeve-zz/homepod-controller-updates/releases/download/v1.0.22/HomePod.Controller.1.0.22.zip" length="36839424" type="application/octet-stream" sparkle:edSignature="vKAq3+ZJJOOmDRk7wrw5iUOR3qtNZQKgO28c5BPApolEozvp9MmUCpRhor6ALRsrp3SLzjB9I33SR018I1KAAg=="/>
-        </item>
-        <item>
-            <title>1.0.21</title>
-            <description><![CDATA[<p>
-<strong>Beta release</strong> — thanks for testing.
-</p>
-<h3>Improvements</h3>
-<ul>
-<li><strong>Space plays and pauses.</strong> Press Space in the controls, Apple Music or the mini player, as long as you're not typing.</li>
-<li><strong>⌘F searches Apple Music,</strong> and opens it first if it's hidden.</li>
-<li><strong>Settings in tabs.</strong> Settings is now split into General, Apple Music, Updates and Advanced, like other Mac apps.</li>
-</ul>]]></description>
-            <pubDate>Fri, 13 Nov 2026 15:24:50 -0500</pubDate>
-            <sparkle:version>23</sparkle:version>
-            <sparkle:shortVersionString>1.0.21</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/zeve-zz/homepod-controller-updates/releases/download/v1.0.21/HomePod.Controller.1.0.21.zip" length="36780320" type="application/octet-stream" sparkle:edSignature="IBptBphAlWtKB9kuufORg0Rrk7TipWHk7xptbpN8u2lIypky2U5/LEBxLYR4rsAxZxESYE0I/hgrxpEZyA1VAg=="/>
         </item>
     </channel>
 </rss>
