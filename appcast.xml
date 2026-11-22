@@ -3,6 +3,30 @@
     <channel>
         <title>HomePod Controller</title>
         <item>
+            <title>1.0.24</title>
+            <description><![CDATA[<p>
+<strong>Beta release</strong> — thanks for testing.
+</p>
+<h3>New</h3>
+<ul>
+<li><strong>Up Next.</strong> The new list button next to the mini player button shows what your HomePod plays next. Drag songs to reorder them, remove one with ✕, double-click one to play it now, or clear the rest. Works when the HomePod plays Apple Music itself, for example songs started from this app or with Siri.</li>
+<li><strong>Play Next and Play Last.</strong> Right-click any song, album or playlist, or use the … button on a song, to add it to what's playing without stopping the current song.</li>
+<li><strong>Search finds artists and playlists.</strong> With Apple Music access allowed, search shows Top Results, artists and Apple Music playlists such as "R.E.M. Essentials". Click an artist to see their top songs and albums.</li>
+<li><strong>Keyboard shortcut.</strong> Set one in Settings › General to open and close HomePod Controller from any app, like clicking the menu bar icon.</li>
+</ul>
+<h3>Fixes</h3>
+<ul>
+<li><strong>Group volume moves together.</strong> The − and + keys now change every room in a group by the same amount at the same moment, including HomePods paired with an Apple TV.</li>
+<li><strong>New searches start at the top</strong> instead of where the previous results were scrolled to.</li>
+</ul>]]></description>
+            <pubDate>Sun, 22 Nov 2026 15:38:15 -0500</pubDate>
+            <sparkle:version>28</sparkle:version>
+            <sparkle:shortVersionString>1.0.24</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/zeve-zz/homepod-controller-updates/releases/download/v1.0.24/HomePod.Controller.1.0.24.zip" length="37081555" type="application/octet-stream" sparkle:edSignature="cznR0TLHW1JR5crSK+omYpnY8J7VHsyBBtM22YJ5XiixIGXWv3iHHBzEqycU2Buf3R0yppb5EFsS3Nr6g9e1Dw=="/>
+        </item>
+        <item>
             <title>1.0.23.2</title>
             <description><![CDATA[<p>
 <strong>Beta release</strong> — thanks for testing.
@@ -33,32 +57,6 @@
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <enclosure url="https://github.com/zeve-zz/homepod-controller-updates/releases/download/v1.0.23.1/HomePod.Controller.1.0.23.1.zip" length="36889412" type="application/octet-stream" sparkle:edSignature="+n70dZk4v/jAkHeGqXaxuipd/ealJzc9mWRuEGdt+OTDvW+lj/E1A08OjTzMyVmmuVBdFoJRlhTyDSecLcQ5Aw=="/>
-        </item>
-        <item>
-            <title>1.0.23</title>
-            <description><![CDATA[<p>
-<strong>Beta release</strong> — thanks for testing.
-</p>
-<h3>New</h3>
-<ul>
-<li><strong>Pick speakers before you play.</strong> Tick rooms on the Speakers page while nothing is playing, and they join as soon as the music starts.</li>
-<li><strong>Install updates automatically.</strong> A new option in Settings › Updates downloads updates in the background. When one is ready, the app says so, with a button to restart now.</li>
-<li><strong>Play songs on HomePods paired with an Apple TV.</strong> If the Apple TV is waiting for Apple Music's latest privacy agreement, the app tells you to accept it there.</li>
-</ul>
-<h3>Fixes</h3>
-<ul>
-<li><strong>New songs show right away.</strong> The app used to take up to 30 seconds to notice that the next song had started.</li>
-<li><strong>Next and back show that they're working</strong>, so it's clear the click landed.</li>
-<li><strong>Grouping speakers</strong> now uses the same request as Apple's own apps.</li>
-<li><strong>No more in-between steps</strong> when a room joins a group, and the song's time no longer jumps when a new song starts.</li>
-<li><strong>Keep stereo pairs ready for Home scenes</strong> (Settings › General): Apple's HomePod software can leave a stereo pair silent when a Home scene runs while the pair is still grouped with another room. This setting now ungroups 2 minutes after the music stops by default, and you can choose a longer time.</li>
-</ul>]]></description>
-            <pubDate>Tue, 17 Nov 2026 08:52:43 -0500</pubDate>
-            <sparkle:version>25</sparkle:version>
-            <sparkle:shortVersionString>1.0.23</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/zeve-zz/homepod-controller-updates/releases/download/v1.0.23/HomePod.Controller.1.0.23.zip" length="36886473" type="application/octet-stream" sparkle:edSignature="HWyUAtUy6f/LkWoP3EH/8kx+AZE3WcKeJd7cPldrj1xRyEM3TaVgYxLuLUr6E8TTkr9GZBQt8Qat2TU230jWAA=="/>
         </item>
     </channel>
 </rss>
