@@ -3,6 +3,30 @@
     <channel>
         <title>HomePod Controller</title>
         <item>
+            <title>1.0.24.1</title>
+            <description><![CDATA[<p>
+<strong>Beta release</strong> — thanks for testing.
+</p>
+<h3>New</h3>
+<ul>
+<li><strong>Add a room to music from an Apple TV, iPhone or Mac.</strong> When a room plays music sent from another device, ticking another room now brings it in: the new room picks up the same song at the same spot and the album continues, and the rooms already playing join it.</li>
+</ul>
+<h3>Fixes</h3>
+<ul>
+<li><strong>Volume works again on added rooms.</strong> Volume is back to how it worked in 1.0.23, and both halves of a stereo pair now change together.</li>
+<li><strong>Any room can leave a group,</strong> including the one the music started in. The other rooms keep playing.</li>
+<li><strong>HomePods paired with an Apple TV show their real volume</strong> instead of a faded placeholder, and every speaker remembers its last volume between launches.</li>
+<li><strong>A steadier speaker list.</strong> Each room is one line that keeps its height, every ticked room has its own volume bar, and a room's volume is off while it's joining or leaving.</li>
+<li><strong>Adding a room is more reliable</strong> and no longer reports a failure before it succeeds.</li>
+</ul>]]></description>
+            <pubDate>Tue, 24 Nov 2026 19:21:03 -0500</pubDate>
+            <sparkle:version>29</sparkle:version>
+            <sparkle:shortVersionString>1.0.24.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/zeve-zz/homepod-controller-updates/releases/download/v1.0.24.1/HomePod.Controller.1.0.24.1.zip" length="37107902" type="application/octet-stream" sparkle:edSignature="PtuNIRu5jDZ6ywFUSR2utZ6YnZnvJutR7R5FVBgOVpkUBYTvQRO1TW0aSM8ofxHybiILH+7XO1/wu7fzPyOOCg=="/>
+        </item>
+        <item>
             <title>1.0.24</title>
             <description><![CDATA[<p>
 <strong>Beta release</strong> — thanks for testing.
@@ -41,22 +65,6 @@
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <enclosure url="https://github.com/zeve-zz/homepod-controller-updates/releases/download/v1.0.23.2/HomePod.Controller.1.0.23.2.zip" length="36894586" type="application/octet-stream" sparkle:edSignature="dPMb94m1Rd/HopAPbIG+s4KhkWJeRmySs1bRfASniJlqY6WmDQS0RhBIVJHodANIkHV+A0YydWS8MlyiyCgADQ=="/>
-        </item>
-        <item>
-            <title>1.0.23.1</title>
-            <description><![CDATA[<p>
-<strong>Beta release</strong> — thanks for testing.
-</p>
-<h3>Fixes</h3>
-<ul>
-<li><strong>Speakers no longer go missing.</strong> On some Wi-Fi networks the app could miss a speaker, or one half of a stereo pair, which then showed under its own name (like "HomePod Right") instead of the room. The app now checks for speakers it missed, so every room shows up.</li>
-</ul>]]></description>
-            <pubDate>Tue, 17 Nov 2026 09:59:26 -0500</pubDate>
-            <sparkle:version>26</sparkle:version>
-            <sparkle:shortVersionString>1.0.23.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/zeve-zz/homepod-controller-updates/releases/download/v1.0.23.1/HomePod.Controller.1.0.23.1.zip" length="36889412" type="application/octet-stream" sparkle:edSignature="+n70dZk4v/jAkHeGqXaxuipd/ealJzc9mWRuEGdt+OTDvW+lj/E1A08OjTzMyVmmuVBdFoJRlhTyDSecLcQ5Aw=="/>
         </item>
     </channel>
 </rss>
